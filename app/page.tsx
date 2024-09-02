@@ -1,4 +1,5 @@
-import { Input } from "@/components/Input";
+import PasswordInput from "@/components/inputs/PasswordInput";
+import { Input } from "@/components/UI/Input";
 
 export default function Home() {
 	return (
@@ -7,7 +8,9 @@ export default function Home() {
 					 items-center justify-between p-24
 					 bg-gray-900"
 		>
-			<Input />
+			<p className="text-white font-semibold">
+				You can fide inputs in the components folder
+			</p>
 		</main>
 	);
 }
